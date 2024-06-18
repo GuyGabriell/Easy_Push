@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    transition-duration: ease-in, ease-out;
+    
+}
+
+.menu-bar {
+    background-color: rgb(0,100,0);
+    text-align: center;
+
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menu-bar ul li {
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    font-size: small;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active, .menu-bar ul li:hover {
+    background-color: rgb(43,171,13);
+    border-radius: 5px;
+    transition: 0.15s;
+}
+
+.menu-bar .fa {
+    margin-right: 10px;    
+}
+
+.sub-menu {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+    transition: 0.15s;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu ul li {
+    width: 130px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 0;
+    border-bottom: 1px  dotted white;
+    background: transparent;
+}
+
+.menu-bar ul li:hover .sub-menu ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover, .sub-menu ul li a:hover {
+    color: rgb(178,255,0);
+    cursor: pointer;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+    transition: 0.15s;
+    transition-duration: ease-in, ease-out;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 130px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 0;
+    border-bottom: 1px dotted white;
+    background: transparent;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover, .sub-menu-1 ul li a:hover {
+    color: rgb(178,255,0);
+    cursor: pointer;
+}
+
+.fa-arrow-right {
+    float: right;
+}
+
+.sub-menu-2 {
+    display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+    position: absolute;
+    display: block;
+    background: rgb(0,100,0);
+    margin-top: -40px;
+    margin-left: 140px;
+    transition: 0.15s;
+    transition-duration: ease-in, ease-out;
+
+
+}
+
+.hover-me:hover .sub-menu-2 ul {
+    display: block;
+    margin: 10px;
+}
+
+.hover-me:hover .sub-menu-2 ul li {
+    width: 130px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 0;
+    border-bottom: 1px dotted white;
+    background: transparent;
+}
+
+
+
+
+
+.sub-menu-3 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-3 {
+    position: absolute;
+    display: block;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-3 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-3 ul li {
+    width: 130px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 0;
+    border-bottom: 1px dotted white;
+    background: transparent;
+}
+
+.menu-bar ul li:hover .sub-menu-3 ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover, .sub-menu-3 ul li a:hover {
+    color: rgb(178,255,0);
+    cursor: pointer;
+}
+
+
+
+
+
+
+.sub-menu-4 {
+    display: none;
+}
+
+.hover-me:hover .sub-menu-4 {
+    position: absolute;
+    display: block;
+    background: rgb(0,100,0);
+    margin-top: -40px;
+    margin-left: 140px;
+    transition: 0.15s;
+    transition-duration: ease-in, ease-out;
+
+
+}
+
+.hover-me:hover .sub-menu-4 ul {
+    display: block;
+    margin: 10px;
+}
+
+.hover-me:hover .sub-menu-4 ul li {
+    width: 130px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 0;
+    border-bottom: 1px dotted white;
+    background: transparent;
+}
